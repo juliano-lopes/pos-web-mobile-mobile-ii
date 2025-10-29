@@ -1,0 +1,89 @@
+node_modules/
+**/node_modules/
+# Logs de erro do npm/yarn
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnpm-debug.log*
+# ==================================
+# 2. Dados Sensíveis e Específicos do Ambiente
+# ==================================
+
+# Arquivos de variáveis de ambiente (contêm chaves, senhas, etc.)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# ==================================
+# 3. Builds e Compilação
+# ==================================
+
+# Builds gerados (web, mobile, server)
+build/
+dist/
+out/
+tmp/
+
+# Cache de transpilação do TypeScript ou Babel (se você os usa)
+*.tsbuildinfo
+.babelcache/
+
+
+# ==================================
+# 4. Arquivos do Sistema Operacional (OS)
+# ==================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ==================================
+# 5. Configurações Específicas de IDEs e Editores
+# ==================================
+
+# Visual Studio Code (VS Code)
+.vscode/
+
+# WebStorm / IntelliJ / JetBrains
+.idea/
+
+# Outros editores
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+
+# ==================================
+# 6. Específicos de Mobile (React Native)
+# ==================================
+
+# Android
+android/build/
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+android/captures/
+# Chaves de assinatura (CRUCIAL para segurança)
+android/app/*.keystore
+*.jks
+# Arquivos de debug e release
+android/app/src/main/assets/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/.xcode.env.local
+
+# Expo/EAS
+.expo/
+*.zip
