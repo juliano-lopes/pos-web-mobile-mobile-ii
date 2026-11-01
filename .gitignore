@@ -87,3 +87,6 @@ ios/.xcode.env.local
 # Expo/EAS
 .expo/
 *.zip
+
+# VS Code Local History
+.history/
